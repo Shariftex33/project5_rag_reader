@@ -1,0 +1,1550 @@
+[
+ {
+  "embedder": "hash",
+  "strategy": "fixed",
+  "size": 300,
+  "overlap": 0,
+  "k": 3,
+  "chunks": 31,
+  "avg_chunk_chars": 238,
+  "hit_at_k": 0.722,
+  "mrr": 0.62,
+  "index_s": 0.08,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": null
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 3
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": null
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": null
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": 3
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": null
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "fixed",
+  "size": 300,
+  "overlap": 100,
+  "k": 3,
+  "chunks": 48,
+  "avg_chunk_chars": 208,
+  "hit_at_k": 0.722,
+  "mrr": 0.667,
+  "index_s": 0.1,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": null
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": null
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": null
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": null
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 2
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "fixed",
+  "size": 600,
+  "overlap": 0,
+  "k": 3,
+  "chunks": 21,
+  "avg_chunk_chars": 352,
+  "hit_at_k": 0.833,
+  "mrr": 0.741,
+  "index_s": 0.09,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": null
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": null
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": 3
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "fixed",
+  "size": 600,
+  "overlap": 100,
+  "k": 3,
+  "chunks": 26,
+  "avg_chunk_chars": 309,
+  "hit_at_k": 0.778,
+  "mrr": 0.722,
+  "index_s": 0.09,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": null
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": null
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": null
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "fixed",
+  "size": 1000,
+  "overlap": 0,
+  "k": 3,
+  "chunks": 19,
+  "avg_chunk_chars": 389,
+  "hit_at_k": 0.778,
+  "mrr": 0.685,
+  "index_s": 0.07,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": null
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": null
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": 3
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": null
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "fixed",
+  "size": 1000,
+  "overlap": 100,
+  "k": 3,
+  "chunks": 20,
+  "avg_chunk_chars": 384,
+  "hit_at_k": 0.778,
+  "mrr": 0.722,
+  "index_s": 0.07,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": null
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": null
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": null
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "recursive",
+  "size": 300,
+  "overlap": 0,
+  "k": 3,
+  "chunks": 36,
+  "avg_chunk_chars": 204,
+  "hit_at_k": 0.889,
+  "mrr": 0.833,
+  "index_s": 0.09,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": 1
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": 1
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": null
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "recursive",
+  "size": 300,
+  "overlap": 100,
+  "k": 3,
+  "chunks": 42,
+  "avg_chunk_chars": 232,
+  "hit_at_k": 0.889,
+  "mrr": 0.796,
+  "index_s": 0.09,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": null
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": 1
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": 2
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": 3
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "recursive",
+  "size": 600,
+  "overlap": 0,
+  "k": 3,
+  "chunks": 23,
+  "avg_chunk_chars": 321,
+  "hit_at_k": 0.833,
+  "mrr": 0.741,
+  "index_s": 0.09,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": null
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": null
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": 3
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "recursive",
+  "size": 600,
+  "overlap": 100,
+  "k": 3,
+  "chunks": 23,
+  "avg_chunk_chars": 345,
+  "hit_at_k": 0.778,
+  "mrr": 0.722,
+  "index_s": 0.06,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": null
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": null
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": null
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "recursive",
+  "size": 1000,
+  "overlap": 0,
+  "k": 3,
+  "chunks": 20,
+  "avg_chunk_chars": 369,
+  "hit_at_k": 0.778,
+  "mrr": 0.722,
+  "index_s": 0.06,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": null
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": null
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": null
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "recursive",
+  "size": 1000,
+  "overlap": 100,
+  "k": 3,
+  "chunks": 20,
+  "avg_chunk_chars": 383,
+  "hit_at_k": 0.778,
+  "mrr": 0.722,
+  "index_s": 0.07,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": null
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": null
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": null
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "sentence",
+  "size": 300,
+  "overlap": 0,
+  "k": 3,
+  "chunks": 35,
+  "avg_chunk_chars": 210,
+  "hit_at_k": 0.889,
+  "mrr": 0.796,
+  "index_s": 0.06,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": 1
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": 1
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": null
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 3
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "sentence",
+  "size": 300,
+  "overlap": 100,
+  "k": 3,
+  "chunks": 38,
+  "avg_chunk_chars": 220,
+  "hit_at_k": 0.944,
+  "mrr": 0.824,
+  "index_s": 0.07,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": 1
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": 2
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": 3
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "sentence",
+  "size": 600,
+  "overlap": 0,
+  "k": 3,
+  "chunks": 22,
+  "avg_chunk_chars": 335,
+  "hit_at_k": 0.944,
+  "mrr": 0.852,
+  "index_s": 0.06,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": 1
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": 1
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": 3
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "sentence",
+  "size": 600,
+  "overlap": 100,
+  "k": 3,
+  "chunks": 22,
+  "avg_chunk_chars": 341,
+  "hit_at_k": 0.944,
+  "mrr": 0.852,
+  "index_s": 0.06,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": 1
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": 1
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": 3
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "sentence",
+  "size": 1000,
+  "overlap": 0,
+  "k": 3,
+  "chunks": 20,
+  "avg_chunk_chars": 369,
+  "hit_at_k": 0.889,
+  "mrr": 0.796,
+  "index_s": 0.07,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": 1
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": 1
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": null
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 3
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ },
+ {
+  "embedder": "hash",
+  "strategy": "sentence",
+  "size": 1000,
+  "overlap": 100,
+  "k": 3,
+  "chunks": 20,
+  "avg_chunk_chars": 374,
+  "hit_at_k": 0.889,
+  "mrr": 0.833,
+  "index_s": 0.06,
+  "per_q": [
+   {
+    "q": "How many days per week must hybrid employees be in the office?",
+    "rank": 1
+   },
+   {
+    "q": "What is the home office stipend amount?",
+    "rank": 1
+   },
+   {
+    "q": "What are the core hours employees must be reachable?",
+    "rank": 1
+   },
+   {
+    "q": "How long do I have to report a stolen laptop?",
+    "rank": null
+   },
+   {
+    "q": "How many days can I work from another country each year?",
+    "rank": 1
+   },
+   {
+    "q": "How much parental leave do employees get?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is the hottest and why?",
+    "rank": 2
+   },
+   {
+    "q": "How tall is Olympus Mons?",
+    "rank": 1
+   },
+   {
+    "q": "Which moon is the largest in the Solar System?",
+    "rank": 2
+   },
+   {
+    "q": "Who discovered Uranus and when?",
+    "rank": 1
+   },
+   {
+    "q": "Where did the Perseverance rover land?",
+    "rank": 1
+   },
+   {
+    "q": "Which planet is less dense than water?",
+    "rank": 1
+   },
+   {
+    "q": "What does MRR stand for in RAG evaluation?",
+    "rank": null
+   },
+   {
+    "q": "How many dimensions do all-MiniLM-L6-v2 vectors have?",
+    "rank": 1
+   },
+   {
+    "q": "What overlap percentage is recommended between chunks?",
+    "rank": 1
+   },
+   {
+    "q": "How does a system handle a vague follow-up question like 'what about its cost'?",
+    "rank": 1
+   },
+   {
+    "q": "Why is RAG cheaper than fine-tuning?",
+    "rank": 1
+   },
+   {
+    "q": "Which spacecraft visited both Uranus and Neptune?",
+    "rank": 1
+   }
+  ]
+ }
+]

@@ -1,0 +1,27 @@
+Introduction to Retrieval-Augmented Generation
+
+Retrieval-Augmented Generation, or RAG, is a technique that combines a search step with a language model. Instead of relying only on what the model memorised during training, the system first retrieves relevant passages from an external knowledge source and then asks the model to answer using those passages. RAG was popularised by a 2020 paper from Facebook AI Research.
+
+Why use RAG?
+
+Language models can hallucinate, meaning they produce fluent but incorrect statements. They also have a knowledge cutoff and cannot see private company documents. RAG addresses these problems by grounding answers in retrieved text. It is usually cheaper than fine-tuning because the documents can be updated without retraining the model. Another benefit is traceability: every answer can point to the source passages that supported it.
+
+The RAG pipeline
+
+A typical pipeline has two phases. In the indexing phase, documents are loaded, split into chunks, converted to vectors by an embedding model, and stored in a vector database. In the query phase, the user question is embedded, the nearest chunks are found by similarity search, and the top results are inserted into the prompt for the language model.
+
+Chunking
+
+Chunking splits long documents into small pieces. Chunks that are too large dilute the relevant facts and waste context window space. Chunks that are too small lose surrounding context. A common starting point is 500 to 1000 characters with an overlap of 10 to 20 percent, so that a sentence cut at a boundary still appears whole in the neighbouring chunk. Recursive splitting, which prefers paragraph breaks and then sentence breaks, usually keeps ideas together better than fixed-size windows.
+
+Embeddings and vector search
+
+An embedding model maps text to a list of numbers so that texts with similar meaning end up close together. Closeness is typically measured with cosine similarity. Popular open models include all-MiniLM-L6-v2, which produces 384-dimensional vectors, and nomic-embed-text. OpenAI offers text-embedding-3-small with 1536 dimensions. Vector databases such as ChromaDB, Pinecone and FAISS use approximate nearest neighbour indexes like HNSW to search millions of vectors quickly.
+
+Evaluating a RAG system
+
+Two things should be measured separately. Retrieval quality asks whether the right chunk was found; common metrics are hit rate at k and mean reciprocal rank, or MRR. Answer faithfulness asks whether the generated answer is supported by the retrieved text and does not add unsupported claims. A system can retrieve perfectly and still hallucinate, so both layers need checking.
+
+Conversation mode
+
+Follow-up questions such as "what about its cost?" are ambiguous on their own. A common solution is query condensation: the model rewrites the follow-up into a standalone question using the chat history, and that rewritten query is used for retrieval.

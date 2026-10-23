@@ -1,0 +1,20 @@
+[
+ {"q": "How many days per week must hybrid employees be in the office?", "doc": "remote_work_policy.docx", "gold": ["at least two days per week"], "answer": ["two"]},
+ {"q": "What is the home office stipend amount?", "doc": "remote_work_policy.docx", "gold": ["600 euros"], "answer": ["600"]},
+ {"q": "What are the core hours employees must be reachable?", "doc": "remote_work_policy.docx", "gold": ["10:00 to 15:00"], "answer": ["10:00", "15:00"]},
+ {"q": "How long do I have to report a stolen laptop?", "doc": "remote_work_policy.docx", "gold": ["within 24 hours"], "answer": ["24"]},
+ {"q": "How many days can I work from another country each year?", "doc": "remote_work_policy.docx", "gold": ["up to 20 days"], "answer": ["20"]},
+ {"q": "How much parental leave do employees get?", "doc": "remote_work_policy.docx", "gold": ["parental leave", "16 weeks"], "answer": ["16"]},
+ {"q": "Which planet is the hottest and why?", "doc": "solar_system_guide.pdf", "gold": ["venus is the hottest planet"], "answer": ["venus"]},
+ {"q": "How tall is Olympus Mons?", "doc": "solar_system_guide.pdf", "gold": ["olympus mons", "22 kilometres"], "answer": ["22"]},
+ {"q": "Which moon is the largest in the Solar System?", "doc": "solar_system_guide.pdf", "gold": ["ganymede"], "answer": ["ganymede"]},
+ {"q": "Who discovered Uranus and when?", "doc": "solar_system_guide.pdf", "gold": ["william herschel in 1781"], "answer": ["herschel", "1781"]},
+ {"q": "Where did the Perseverance rover land?", "doc": "solar_system_guide.pdf", "gold": ["jezero crater"], "answer": ["jezero"]},
+ {"q": "Which planet is less dense than water?", "doc": "solar_system_guide.pdf", "gold": ["least dense planet"], "answer": ["saturn"]},
+ {"q": "What does MRR stand for in RAG evaluation?", "doc": "intro_to_rag.txt", "gold": ["mean reciprocal rank"], "answer": ["mean reciprocal rank"]},
+ {"q": "How many dimensions do all-MiniLM-L6-v2 vectors have?", "doc": "intro_to_rag.txt", "gold": ["384-dimensional"], "answer": ["384"]},
+ {"q": "What overlap percentage is recommended between chunks?", "doc": "intro_to_rag.txt", "gold": ["10 to 20 percent"], "answer": ["10", "20"]},
+ {"q": "How does a system handle a vague follow-up question like 'what about its cost'?", "doc": "intro_to_rag.txt", "gold": ["query condensation"], "answer": ["condens", "rewrite"]},
+ {"q": "Why is RAG cheaper than fine-tuning?", "doc": "intro_to_rag.txt", "gold": ["without retraining the model"], "answer": ["retrain", "update"]},
+ {"q": "Which spacecraft visited both Uranus and Neptune?", "doc": "solar_system_guide.pdf", "gold": ["voyager 2"], "answer": ["voyager"]}
+]
